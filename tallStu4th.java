@@ -1,3 +1,4 @@
+package Hunter;
 import java.util.Scanner;
 import java.util.Arrays;
 public class tallStu4th {
@@ -7,6 +8,7 @@ public class tallStu4th {
 		int num=sc.nextInt();
 		int i,j;
 		int[] arr=new int[num];
+		System.out.println("Enter the height");
 		for(i=0;i<num;i++){
 			arr[i]=sc.nextInt();
 		}
