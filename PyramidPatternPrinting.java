@@ -26,7 +26,7 @@ public class PyramidPatternPrinting {
 }
 /*
 6
-        *
+       *
       ***
      *****
     *******
