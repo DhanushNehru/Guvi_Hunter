@@ -21,12 +21,7 @@ public class MiddleOfLinkedList {
 		}while((ch=='Y' || ch=='y'));
 		sc.close();
 		print(head);
-		if(count%2==0) {
-			middle=(count/2)+1;
-		}
-		else {
-			middle=count/2;
-		}
+		middle=count/2+1;
 		middleElement(head,middle);
 	}
 	public static Node insert(Node head,int data) {
